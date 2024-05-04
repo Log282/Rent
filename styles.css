@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(to bottom right, #007bff, #ff6347, #20b2aa); /* Define a linear gradient with mixed colors */
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; /* Center align the content */
+    padding-top: 5%;
+    padding-bottom: 13%;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the container */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #007bff; /* Blue color for labels */
+}
+
+input, select, button {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    /* border: 1px solid #ff0000; */
+    border-radius: 5px;
+    color: #ff0000;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rent Bill Calculator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h2>Rent Bill Calculator</h2>
+    <form id="rentForm">
+        <label for="connectionType">Select Tenant</label>
+        <select id="connectionType" name="connectionType">
+            <option value="1">Sakthi</option>
+            <option value="2">Anbu</option>
+            <option value="3">Selvam</option>
+            <option value="4">Vignesh</option>
+            <option value="5">Unknown</option>
+        </select><br>
+        <label for="previousReading">Previous Reading (in units):</label>
+        <input type="number" id="previousReading" name="previousReading"><br>
+        <label for="currentReading">Current Reading (in units):</label>
+        <input type="number" id="currentReading" name="currentReading"><br><br><br>
+        <button type="button" onclick="calculateBill()">Calculate Bill</button>
+    </form>
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
